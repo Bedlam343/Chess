@@ -1,15 +1,15 @@
 import blackPawn from "assets/images/pawn_b.png";
-import whitePawn from "../../assets/images/pawn_w.png";
-import blackRook from "../../assets/images/rook_b.png";
-import whiteRook from "../../assets/images/rook_w.png";
-import blackKnight from "../../assets/images/knight_b.png";
-import whiteKnight from "../../assets/images/knight_w.png";
-import blackBishop from "../../assets/images/bishop_b.png";
-import whiteBishop from "../../assets/images/bishop_w.png";
-import blackQueen from "../../assets/images/queen_b.png";
-import whiteQueen from "../../assets/images/queen_w.png";
-import blackKing from "../../assets/images/king_b.png";
-import whiteKing from "../../assets/images/king_w.png";
+import whitePawn from "assets/images/pawn_w.png";
+import blackRook from "assets/images/rook_b.png";
+import whiteRook from "assets/images/rook_w.png";
+import blackKnight from "assets/images/knight_b.png";
+import whiteKnight from "assets/images/knight_w.png";
+import blackBishop from "assets/images/bishop_b.png";
+import whiteBishop from "assets/images/bishop_w.png";
+import blackQueen from "assets/images/queen_b.png";
+import whiteQueen from "assets/images/queen_w.png";
+import blackKing from "assets/images/king_b.png";
+import whiteKing from "assets/images/king_w.png";
 
 interface Piece {
   image: string;
