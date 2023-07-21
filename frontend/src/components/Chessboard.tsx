@@ -8,9 +8,14 @@ const Chessboard = () => {
 
   for (let j = 0; j < VERTICAL_AXIS.length; j++) {
     for (let i = 0; i < HORIZONTAL_AXIS.length; i++) {
-      board.push(
-        <div className="tile black-tile">{`{${HORIZONTAL_AXIS[i]}${VERTICAL_AXIS[j]}}`}</div>
-      );
+      const number = i + j + 2;
+
+      // even number tiles are light
+      if (number % 2 === 0) {
+        board.push(<div className="tile white-tile"></div>);
+      } else {
+        board.push(<div className="tile black-tile"></div>);
+      }
     }
   }
 
