@@ -1,5 +1,5 @@
-import Chessboard from "./components/Chessboard";
-import "./App.css";
+import Chessboard from "components/Chessboard/Chessboard";
+import "App.css";
 
 const App = (): React.JSX.Element => {
   return (
